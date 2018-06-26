@@ -14,6 +14,16 @@
 		15819E3D20E2D4CF002E4C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15819E3B20E2D4CF002E4C51 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		15819E5F20E2D559002E4C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15819E5B20E2D558002E4C51 /* BuildProblemFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15819E5020E2D558002E4C51;
+			remoteInfo = BuildProblemFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		15819E2F20E2D4CD002E4C51 /* BuildProblemApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildProblemApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15819E3220E2D4CD002E4C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +32,7 @@
 		15819E3920E2D4CF002E4C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15819E3C20E2D4CF002E4C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15819E3E20E2D4CF002E4C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15819E5B20E2D558002E4C51 /* BuildProblemFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BuildProblemFramework.xcodeproj; path = BuildProblemFramework/BuildProblemFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				15819E3120E2D4CD002E4C51 /* BuildProblemApp */,
+				15819E4520E2D53F002E4C51 /* Dependencies */,
 				15819E3020E2D4CD002E4C51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +74,22 @@
 				15819E3E20E2D4CF002E4C51 /* Info.plist */,
 			);
 			path = BuildProblemApp;
+			sourceTree = "<group>";
+		};
+		15819E4520E2D53F002E4C51 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				15819E5B20E2D558002E4C51 /* BuildProblemFramework.xcodeproj */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		15819E5C20E2D558002E4C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15819E6020E2D559002E4C51 /* BuildProblemFramework.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +138,28 @@
 			mainGroup = 15819E2620E2D4CD002E4C51;
 			productRefGroup = 15819E3020E2D4CD002E4C51 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15819E5C20E2D558002E4C51 /* Products */;
+					ProjectRef = 15819E5B20E2D558002E4C51 /* BuildProblemFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				15819E2E20E2D4CD002E4C51 /* BuildProblemApp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		15819E6020E2D559002E4C51 /* BuildProblemFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BuildProblemFramework.framework;
+			remoteRef = 15819E5F20E2D559002E4C51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		15819E2D20E2D4CD002E4C51 /* Resources */ = {
