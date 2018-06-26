@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import BuildProblemFramework
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
+	override func viewDidAppear(_ animated: Bool)
+	{
+		super.viewDidAppear(animated)
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		present(ColorViewController(), animated: true, completion: nil)
 	}
-
-
 }
 

@@ -1,0 +1,6 @@
+framework module Pods_BuildProblemApp {
+  umbrella header "Pods-BuildProblemApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

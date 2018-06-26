@@ -1,0 +1,27 @@
+{
+  "name": "BuildProblemFramework",
+  "version": "1.0",
+  "homepage": "https://github.com/brunophilipe/BuildProblemFramework",
+  "source": {
+    "git": "https://github.com/brunophilipe/BuildProblemFramework.git"
+  },
+  "authors": {
+    "Bruno Philipe": "me@bruno.ph"
+  },
+  "summary": "Example library.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ]
+  },
+  "source_files": "BuildProblemFramework/*.{h,m,swift,xib}",
+  "module_name": "BuildProblemFramework"
+}

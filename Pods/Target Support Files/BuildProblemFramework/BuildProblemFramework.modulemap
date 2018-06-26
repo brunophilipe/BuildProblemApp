@@ -1,0 +1,6 @@
+framework module BuildProblemFramework {
+  umbrella header "BuildProblemFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

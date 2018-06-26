@@ -1,0 +1,16 @@
+PODS:
+  - BuildProblemFramework (1.0)
+
+DEPENDENCIES:
+  - BuildProblemFramework (from `Dependencies/BuildProblemFramework`)
+
+EXTERNAL SOURCES:
+  BuildProblemFramework:
+    :path: Dependencies/BuildProblemFramework
+
+SPEC CHECKSUMS:
+  BuildProblemFramework: a5aba2bb38507ade140a485d96a6d3e7bbbc6525
+
+PODFILE CHECKSUM: a377e7e592c8bb98f9ce1676e395d94732e5d70c
+
+COCOAPODS: 1.5.3
